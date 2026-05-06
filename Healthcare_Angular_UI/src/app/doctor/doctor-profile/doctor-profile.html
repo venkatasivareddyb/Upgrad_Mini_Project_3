@@ -1,0 +1,18 @@
+<div class="container mt-4" *ngIf="doctor; else loading">
+  <h2 class="text-primary mb-4">Doctor Profile</h2>
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <p><strong>Doctor ID:</strong> {{ doctor.id }}</p>
+      <p><strong>Name:</strong> {{ doctor.name }}</p>
+      <p><strong>Specialization:</strong> {{ doctor.specialization }}</p>
+      <p><strong>Email:</strong> {{ doctor.email }}</p>
+
+      <button class="btn btn-warning mt-3 me-2" (click)="updatePassword()">Update/Reset Password</button>
+      <button class="btn btn-danger mt-3" (click)="logout()">Logout</button>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <p class="text-muted">Loading doctor profile...</p>
+</ng-template>

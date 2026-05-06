@@ -1,0 +1,16 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">Upload Billing File</h2>
+
+  <input type="file" (change)="onFileSelected($event)" class="form-control mb-3">
+  <button class="btn btn-success" (click)="uploadBilling()">Upload</button>
+
+  <div class="mt-4" *ngIf="uploadedBillings.length > 0">
+    <h4 class="mb-3">Uploaded Billing Records</h4>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let bill of uploadedBillings">
+        <strong>Amount:</strong> {{ bill.amount }}  
+        <span class="text-muted"> | Date: {{ bill.date }} | Status: {{ bill.status }}</span>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">My Reports</h2>
+
+  <div class="row" *ngIf="reports.length > 0; else noReports">
+    <div class="col-md-6 mb-3" *ngFor="let report of reports">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ report.reportType }} Report</h5>
+          <p class="card-text"><strong>Doctor:</strong> {{ report.doctorName }}</p>
+          <p class="card-text"><strong>Date:</strong> {{ report.date }}</p>
+          <p class="card-text"><strong>Description:</strong> {{ report.description }}</p>
+          <p class="card-text"><strong>Appointment ID:</strong> {{ report.appointmentId }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noReports>
+    <p class="text-muted">No reports available.</p>
+  </ng-template>
+</div>

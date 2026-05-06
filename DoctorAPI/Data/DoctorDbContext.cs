@@ -1,0 +1,12 @@
+﻿using DoctorAPI.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace DoctorAPI.Data
+{
+    public class DoctorDbContext : DbContext
+    {
+        public DoctorDbContext(DbContextOptions<DoctorDbContext> options) : base(options) { }
+
+        public DbSet<Doctor> Doctors { get; set; }
+    }
+}

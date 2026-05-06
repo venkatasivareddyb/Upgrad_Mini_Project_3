@@ -1,0 +1,37 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">My Appointments</h2>
+
+  <!-- Upcoming Appointments -->
+  <h4 class="mb-3">Upcoming</h4>
+  <div class="row" *ngIf="upcomingAppointments.length > 0; else noUpcoming">
+    <div class="col-md-6 mb-3" *ngFor="let appt of upcomingAppointments">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ appt.doctorName }} ({{ appt.specialization }})</h5>
+          <p class="card-text">Date: {{ appt.date }} | Time: {{ appt.time }}</p>
+          <span class="badge bg-success">{{ appt.status }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template #noUpcoming>
+    <p class="text-muted">No upcoming appointments.</p>
+  </ng-template>
+
+  <!-- Past Appointments -->
+  <h4 class="mt-4 mb-3">Past</h4>
+  <div class="row" *ngIf="pastAppointments.length > 0; else noPast">
+    <div class="col-md-6 mb-3" *ngFor="let appt of pastAppointments">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ appt.doctorName }} ({{ appt.specialization }})</h5>
+          <p class="card-text">Date: {{ appt.date }} | Time: {{ appt.time }}</p>
+          <span class="badge bg-secondary">{{ appt.status }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template #noPast>
+    <p class="text-muted">No past appointments.</p>
+  </ng-template>
+</div>

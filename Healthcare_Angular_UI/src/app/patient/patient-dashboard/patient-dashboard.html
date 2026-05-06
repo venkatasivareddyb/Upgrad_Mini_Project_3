@@ -1,0 +1,33 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">Patient Dashboard</h2>
+
+  <!-- Navigation Tabs -->
+  <ul class="nav nav-tabs mb-4">
+    <li class="nav-item"><a class="nav-link active" routerLink="/patient">Dashboard</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/patient/appointments">Appointments</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/patient/reports">Reports</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/patient/billings">Billings</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/patient/profile">Profile</a></li>
+  </ul>
+
+  <!-- Doctor Cards -->
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let doctor of doctors">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ doctor.name }}</h5>
+          <p class="card-text">{{ doctor.specialization }}</p>
+          <p *ngIf="doctor.validated; else notValidated">
+            Timings: {{ doctor.timings }}
+          </p>
+          <ng-template #notValidated>
+            <p class="text-muted">Awaiting Admin validation</p>
+          </ng-template>
+          <button class="btn btn-primary mt-2" (click)="bookAppointment(doctor)" [disabled]="!doctor.validated">
+            Book Appointment
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

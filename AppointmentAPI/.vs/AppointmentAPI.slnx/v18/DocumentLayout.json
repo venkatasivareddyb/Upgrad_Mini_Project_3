@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\appointmentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:appointmentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\repositories\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:repositories\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\data\\appointmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:data\\appointmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\dtos\\bookappointmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:dtos\\bookappointmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\appointmentapi\\dtos\\updateappointmentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD92FA-CBF3-47F0-89BC-750CB88CDA6C}|AppointmentAPI.csproj|solutionrelative:dtos\\updateappointmentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppointmentAPI",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\AppointmentAPI.csproj",
+              "RelativeDocumentMoniker": "AppointmentAPI.csproj",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\AppointmentAPI.csproj",
+              "RelativeToolTip": "AppointmentAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T06:46:07.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-06T06:38:52.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:37:48.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\AppointmentService.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "Services\\AppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:35:24.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Repositories\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AppointmentRepository.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Repositories\\AppointmentRepository.cs",
+              "RelativeToolTip": "Repositories\\AppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:31:58.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAppointmentRepository.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Repositories\\Interfaces\\IAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAppointmentRepository.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Repositories\\Interfaces\\IAppointmentRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:31:19.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:14:23.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppointmentDbContext.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Data\\AppointmentDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppointmentDbContext.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Data\\AppointmentDbContext.cs",
+              "RelativeToolTip": "Data\\AppointmentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:20:18.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Appointment.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\Models\\Appointment.cs",
+              "RelativeToolTip": "Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:19:26.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookAppointmentRequest.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\DTOs\\BookAppointmentRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookAppointmentRequest.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\DTOs\\BookAppointmentRequest.cs",
+              "RelativeToolTip": "DTOs\\BookAppointmentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:28:07.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateAppointmentStatusRequest.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\DTOs\\UpdateAppointmentStatusRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateAppointmentStatusRequest.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\AppointmentAPI\\DTOs\\UpdateAppointmentStatusRequest.cs",
+              "RelativeToolTip": "DTOs\\UpdateAppointmentStatusRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:27:14.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">Doctor Dashboard</h2>
+
+  <!-- Navigation Tabs -->
+  <ul class="nav nav-tabs mb-4">
+    <li class="nav-item"><a class="nav-link active" routerLink="/doctor">Dashboard</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/doctor/profile">Profile</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/doctor/reports-upload">Upload Reports</a></li>
+    <li class="nav-item"><button class="btn btn-danger ms-3" (click)="logout()">Logout</button></li>
+  </ul>
+
+  <!-- Today's Appointments -->
+  <h4 class="mb-3">Today's Appointments</h4>
+  <div class="row" *ngIf="todayAppointments.length > 0; else noToday">
+    <div class="col-md-6 mb-3" *ngFor="let appt of todayAppointments">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ appt.patientId }} — {{ appt.doctorName }}</h5>
+          <p class="card-text">Specialization: {{ appt.specialization }}</p>
+          <p class="card-text">Time: {{ appt.time }}</p>
+          <span class="badge bg-success">Today</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template #noToday>
+    <p class="text-muted">No appointments today.</p>
+  </ng-template>
+
+  <!-- Past Appointments -->
+  <h4 class="mt-4 mb-3">Past Appointments</h4>
+  <div class="row" *ngIf="pastAppointments.length > 0; else noPast">
+    <div class="col-md-6 mb-3" *ngFor="let appt of pastAppointments">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ appt.patientId }} — {{ appt.doctorName }}</h5>
+          <p class="card-text">Specialization: {{ appt.specialization }}</p>
+          <p class="card-text">Date: {{ appt.date }} | Time: {{ appt.time }}</p>
+          <span class="badge bg-secondary">Past</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template #noPast>
+    <p class="text-muted">No past appointments.</p>
+  </ng-template>
+</div>

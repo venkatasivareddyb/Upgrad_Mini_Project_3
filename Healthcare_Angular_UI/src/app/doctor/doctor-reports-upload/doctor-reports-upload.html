@@ -1,0 +1,16 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">Upload Patient Report</h2>
+
+  <input type="file" (change)="onFileSelected($event)" class="form-control mb-3">
+  <button class="btn btn-success" (click)="uploadReport()">Upload</button>
+
+  <div class="mt-4" *ngIf="uploadedReports.length > 0">
+    <h4 class="mb-3">Uploaded Reports</h4>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let report of uploadedReports">
+        <strong>{{ report.reportType }}</strong> — {{ report.description }}  
+        <span class="text-muted">({{ report.date }})</span>
+      </li>
+    </ul>
+  </div>
+</div>

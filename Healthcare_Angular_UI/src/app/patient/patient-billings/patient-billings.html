@@ -1,0 +1,26 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">My Billings</h2>
+
+  <div class="row" *ngIf="billings.length > 0; else noBillings">
+    <div class="col-md-6 mb-3" *ngFor="let bill of billings">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Doctor: {{ bill.doctorName }}</h5>
+          <p class="card-text">Appointment ID: {{ bill.appointmentId }}</p>
+          <p class="card-text">Amount: ₹{{ bill.amount }}</p>
+          <p class="card-text">Date: {{ bill.date }}</p>
+          <span class="badge" 
+                [ngClass]="{'bg-success': bill.status === 'Paid', 
+                            'bg-warning': bill.status === 'Pending', 
+                            'bg-danger': bill.status === 'Cancelled'}">
+            {{ bill.status }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noBillings>
+    <p class="text-muted">No billing records available.</p>
+  </ng-template>
+</div>

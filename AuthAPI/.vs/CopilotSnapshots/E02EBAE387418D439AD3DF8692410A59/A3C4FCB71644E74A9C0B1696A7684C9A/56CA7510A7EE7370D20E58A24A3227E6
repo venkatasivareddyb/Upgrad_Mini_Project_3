@@ -1,0 +1,79 @@
+﻿
+using AuthAPI.Data;
+using AuthAPI.Helpers;
+using AuthAPI.Repositories;
+using AuthAPI.Repositories.Interfaces;
+using AuthAPI.Services;
+
+namespace AuthAPI
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+
+            // 🔹 Add DbContext
+            builder.Services.AddDbContext<AuthDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("AuthDb")));
+
+            // 🔹 Add DI for Repository + Service
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<AuthService>();
+            builder.Services.AddSingleton<JwtHelper>();
+
+            // 🔹 Add AutoMapper
+            builder.Services.AddAutoMapper(typeof(Program));
+
+            // 🔹 Add Authentication (JWT)
+            builder.Services.AddAuthentication("Bearer")
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                        ValidAudience = builder.Configuration["Jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(
+                            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                    };
+                });
+
+            // 🔹 Add Authorization policies
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
+                options.AddPolicy("DoctorPolicy", policy => policy.RequireRole("Doctor"));
+                options.AddPolicy("PatientPolicy", policy => policy.RequireRole("Patient"));
+            });
+
+            // 🔹 Add Controllers + Swagger
+            builder.Services.AddControllers();
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
+
+            var app = builder.Build();
+
+            // 🔹 Middleware pipeline
+            app.UseSwagger();
+            app.UseSwaggerUI();
+
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.MapOpenApi();
+            }
+            app.UseHttpsRedirection();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+
+            app.MapControllers();
+
+            app.Run();
+        }
+    }
+}

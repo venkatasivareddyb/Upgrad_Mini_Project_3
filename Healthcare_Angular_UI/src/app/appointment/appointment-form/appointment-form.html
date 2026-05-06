@@ -1,0 +1,43 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">Book Appointment</h2>
+
+  <form (ngSubmit)="bookAppointment()" #apptForm="ngForm">
+    <div class="mb-3">
+      <label>Patient ID</label>
+      <input type="text" class="form-control" [(ngModel)]="appointment.patientId" name="patientId" readonly>
+    </div>
+
+    <div class="mb-3">
+      <label>Doctor Name</label>
+      <input type="text" class="form-control" [(ngModel)]="appointment.doctorName" name="doctorName" required>
+    </div>
+
+    <div class="mb-3">
+      <label>Specialization</label>
+      <input type="text" class="form-control" [(ngModel)]="appointment.specialization" name="specialization" required>
+    </div>
+
+    <div class="mb-3">
+      <label>Date</label>
+      <input type="date" class="form-control" [(ngModel)]="appointment.date" name="date" required>
+    </div>
+
+    <div class="mb-3">
+      <label>Shift</label>
+      <select class="form-select" [(ngModel)]="appointment.shift" name="shift" (change)="onShiftChange()" required>
+        <option value="">Select Shift</option>
+        <option value="Morning">Morning (10 AM – 2 PM)</option>
+        <option value="Evening">Evening (4 PM – 9 PM)</option>
+      </select>
+    </div>
+
+    <div class="mb-3" *ngIf="availableTimes.length > 0">
+      <label>Time</label>
+      <select class="form-select" [(ngModel)]="appointment.time" name="time" required>
+        <option *ngFor="let t of availableTimes" [value]="t">{{ t }}</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Book Appointment</button>
+  </form>
+</div>

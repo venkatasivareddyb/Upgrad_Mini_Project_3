@@ -1,0 +1,77 @@
+<router-outlet></router-outlet>
+<!-- Navbar with Login/Signup -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-primary" routerLink="/">Healthcare Hospital</a>
+    <div class="ms-auto">
+      <button class="btn btn-outline-primary me-2" type="button" (click)="openAuthPopup('login')">Login</button>
+      <button class="btn btn-primary" type="button" (click)="openAuthPopup('register')">Signup</button>
+    </div>
+  </div>
+</nav>
+
+<div *ngIf="authMessage()" class="container mt-4">
+  <div class="alert alert-success text-center" role="alert">
+    {{ authMessage() }}
+  </div>
+</div>
+
+<!-- Hero Section -->
+<div class="container mt-4">
+  <div class="text-center mb-5">
+    <h1 class="fw-bold text-primary">Welcome to Our Hospital</h1>
+    <p class="lead text-muted">Providing trusted healthcare with compassion and excellence.</p>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body text-center">
+          <i class="bi bi-heart-pulse-fill text-danger fs-1"></i>
+          <h5 class="card-title mt-3">Expert Doctors</h5>
+          <p class="card-text">Our team of specialists ensures world-class treatment across all departments.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body text-center">
+          <i class="bi bi-hospital-fill text-success fs-1"></i>
+          <h5 class="card-title mt-3">Modern Facilities</h5>
+          <p class="card-text">Equipped with advanced technology to provide accurate diagnosis and care.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body text-center">
+          <i class="bi bi-shield-check text-primary fs-1"></i>
+          <h5 class="card-title mt-3">Trusted Care</h5>
+          <p class="card-text">We prioritize patient safety and comfort with personalized healthcare services.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Auth Popup -->
+<div class="auth-modal-backdrop" *ngIf="activeAuthPopup()">
+  <div class="auth-modal-card shadow-lg">
+    <div class="auth-modal-header d-flex justify-content-between align-items-center">
+      <h5 class="m-0 text-primary">{{ activeAuthPopup() === 'login' ? 'Login' : 'Signup' }}</h5>
+      <button type="button" class="btn-close" aria-label="Close" (click)="closeAuthPopup()"></button>
+    </div>
+    <div class="auth-modal-body pt-3">
+      <app-login *ngIf="activeAuthPopup() === 'login'" (success)="onAuthSuccess($event)"></app-login>
+      <app-register *ngIf="activeAuthPopup() === 'register'" (success)="onAuthSuccess($event)"></app-register>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-3 mt-5">
+  <small>&copy; 2026 Healthcare Management System</small>
+</footer>

@@ -1,0 +1,80 @@
+﻿{
+  "AuthenticationOptions": {
+    "AuthenticationProviderKey": "JwtBearer",
+    "AllowedScopes": []
+  },
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/auth/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5196
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/doctor/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5062
+        }
+      ],
+      "UpstreamPathTemplate": "/doctor/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "JwtBearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "role": "Doctor"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/patient/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5195
+        }
+      ],
+      "UpstreamPathTemplate": "/patient/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "JwtBearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "role": "Patient"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/appointment/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5221
+        }
+      ],
+      "UpstreamPathTemplate": "/appointment/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "JwtBearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "role": "Admin"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  }
+}

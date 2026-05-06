@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "DoctorAPI.Controllers.DoctorController",
+    "Method": "GetAllDoctors",
+    "RelativePath": "api/Doctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.DoctorController",
+    "Method": "ApproveDoctor",
+    "RelativePath": "api/Doctor/approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DoctorAPI.DTOs.ApproveDoctorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.DoctorController",
+    "Method": "UpdateTimings",
+    "RelativePath": "api/Doctor/timings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DoctorAPI.DTOs.UpdateTimingsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.DoctorController",
+    "Method": "UploadReport",
+    "RelativePath": "api/Doctor/upload-report",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DoctorAPI.DTOs.ReportUploadRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

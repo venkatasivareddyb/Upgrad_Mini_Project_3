@@ -1,0 +1,15 @@
+h2 {
+  font-weight: 600;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.nav-link {
+  font-weight: 500;
+}

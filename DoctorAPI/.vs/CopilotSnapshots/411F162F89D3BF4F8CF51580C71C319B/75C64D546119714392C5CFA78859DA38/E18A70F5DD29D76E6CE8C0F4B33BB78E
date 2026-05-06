@@ -1,0 +1,6 @@
+﻿namespace DoctorAPI.DTOs
+{
+    public class UpdateTimingsRequest
+    {
+    }
+}

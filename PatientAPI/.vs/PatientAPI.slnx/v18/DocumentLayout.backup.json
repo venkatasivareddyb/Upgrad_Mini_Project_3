@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\patientapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:patientapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\models\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:models\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\dtos\\billinguploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:dtos\\billinguploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\dtos\\reportuploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:dtos\\reportuploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\dtos\\updatepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:dtos\\updatepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\dtos\\registerpatientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:dtos\\registerpatientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\data\\patientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:data\\patientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|d:\\my folders\\upgrad\\upgrad_mini_project_3\\patientapi\\repositories\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B31FC7-735D-46C9-B8F7-28EC747A70EF}|PatientAPI.csproj|solutionrelative:repositories\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientAPI",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\PatientAPI.csproj",
+              "RelativeDocumentMoniker": "PatientAPI.csproj",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\PatientAPI.csproj",
+              "RelativeToolTip": "PatientAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T05:22:52.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Billing.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Models\\Billing.cs",
+              "RelativeDocumentMoniker": "Models\\Billing.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Models\\Billing.cs",
+              "RelativeToolTip": "Models\\Billing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:25:38.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "Models\\Report.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Models\\Report.cs",
+              "RelativeToolTip": "Models\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:25:24.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:25:07.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BillingUploadRequest.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\DTOs\\BillingUploadRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\BillingUploadRequest.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\DTOs\\BillingUploadRequest.cs",
+              "RelativeToolTip": "DTOs\\BillingUploadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:34:34.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportUploadRequest.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\DTOs\\ReportUploadRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\ReportUploadRequest.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\DTOs\\ReportUploadRequest.cs",
+              "RelativeToolTip": "DTOs\\ReportUploadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:34:14.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA+wAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:14:29.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:19:56.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdatePasswordRequest.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\DTOs\\UpdatePasswordRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdatePasswordRequest.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\DTOs\\UpdatePasswordRequest.cs",
+              "RelativeToolTip": "DTOs\\UpdatePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:33:58.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterPatientRequest.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\DTOs\\RegisterPatientRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterPatientRequest.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\DTOs\\RegisterPatientRequest.cs",
+              "RelativeToolTip": "DTOs\\RegisterPatientRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:33:40.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\JwtHelper.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:38:01.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FileHelper.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Helpers\\FileHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\FileHelper.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Helpers\\FileHelper.cs",
+              "RelativeToolTip": "Helpers\\FileHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:38:22.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailHelper.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Helpers\\EmailHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\EmailHelper.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Helpers\\EmailHelper.cs",
+              "RelativeToolTip": "Helpers\\EmailHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:38:38.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Helpers\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\ValidationHelper.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Helpers\\ValidationHelper.cs",
+              "RelativeToolTip": "Helpers\\ValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:38:59.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-06T04:43:03.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PatientDbContext.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Data\\PatientDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\PatientDbContext.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Data\\PatientDbContext.cs",
+              "RelativeToolTip": "Data\\PatientDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:23:02.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:31:34.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PatientRepository.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "Repositories\\PatientRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:29:08.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Repositories\\Interfaces\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IPatientRepository.cs",
+              "ToolTip": "D:\\My Folders\\Upgrad\\Upgrad_Mini_Project_3\\PatientAPI\\Repositories\\Interfaces\\IPatientRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IPatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:28:07.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

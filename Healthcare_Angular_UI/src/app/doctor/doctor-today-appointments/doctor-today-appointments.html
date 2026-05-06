@@ -1,0 +1,20 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">Today's Appointments</h2>
+
+  <div class="row" *ngIf="todayAppointments.length > 0; else noToday">
+    <div class="col-md-6 mb-3" *ngFor="let appt of todayAppointments">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ appt.patientId }} — {{ appt.doctorName }}</h5>
+          <p class="card-text">Specialization: {{ appt.specialization }}</p>
+          <p class="card-text">Time: {{ appt.time }}</p>
+          <span class="badge bg-success">Today</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noToday>
+    <p class="text-muted">No appointments scheduled for today.</p>
+  </ng-template>
+</div>

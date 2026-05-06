@@ -1,0 +1,20 @@
+<div class="container mt-4">
+  <h2 class="text-primary mb-4">Past Appointments</h2>
+
+  <div class="row" *ngIf="pastAppointments.length > 0; else noPast">
+    <div class="col-md-6 mb-3" *ngFor="let appt of pastAppointments">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ appt.patientId }} — {{ appt.doctorName }}</h5>
+          <p class="card-text">Specialization: {{ appt.specialization }}</p>
+          <p class="card-text">Date: {{ appt.date }} | Time: {{ appt.time }}</p>
+          <span class="badge bg-secondary">Past</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noPast>
+    <p class="text-muted">No past appointments available.</p>
+  </ng-template>
+</div>
